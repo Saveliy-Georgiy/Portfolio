@@ -1,0 +1,56 @@
+.projects {
+    min-height: 100vh;
+    background-color: #1f1f20;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.myProjectsContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 200px;
+}
+
+.listOfMyProjects {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    position: relative;
+}
+
+.backgroundPosition {
+    background-size: cover;
+    background-position: center;
+}
+
+.backgroundPosition:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    height: 350px;
+    opacity: 0.4;
+}
+
+.picture1 {
+    background-image: url("../../../BGC for Projects/social_network.PNG");
+}
+
+.picture2 {
+    background-image: url("../../../BGC for Projects/counter.PNG");
+}
+
+.picture3 {
+    background-image: url("../../../BGC for Projects/practice.PNG");
+}
+
+
