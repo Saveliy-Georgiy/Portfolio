@@ -83,7 +83,7 @@ h1 {
 
     .greeting span:nth-child(2) span:nth-child(2):before {
         right: 3px;
-        width: 172px;
+        width: 181px;
     }
 
     .greeting span:nth-child(1),
@@ -100,7 +100,7 @@ h1 {
     }
 
     .greeting span:nth-child(2) span:nth-child(2):before {
-        width: 172px;
+        width: 181px;
     }
 }
 
