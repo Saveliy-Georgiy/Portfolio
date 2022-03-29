@@ -5,7 +5,7 @@ import {Icon} from "../../../../Icons/Icon";
 type SkillPropsType = {
     picture: string
     knowledge: string
-    descriptionOfKnowledge: string
+    descriptionOfKnowledge?: string
 }
 
 export const Skill = (props: SkillPropsType) => {

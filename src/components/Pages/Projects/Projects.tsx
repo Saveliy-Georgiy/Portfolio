@@ -10,11 +10,13 @@ export const Projects = () => {
                 <H2 name="Проекты"/>
                 <div className={styles.listOfMyProjects}>
                     <Project picture={styles.picture1 + ' ' + styles.backgroundPosition} name="Социальная сеть"
-                             description="Описание соц сети Описание соц сети Описание соц сети Описание соц сети"/>
+                             description="Социальная сеть с реальными пользователями"/>
                     <Project picture={styles.picture2 + ' ' + styles.backgroundPosition} name="Счетчик"
-                             description="Описание второго проекта"/>
+                             description="Не имеющий практического применения счетчик, был создан для тренировки"/>
                     <Project picture={styles.picture3 + ' ' + styles.backgroundPosition} name="Практическая страница"
-                             description="Описание третьего проекта"/>
+                             description="универсальные компоненты, мелкие интересные задачки и т.д."/>
+                    <Project picture={styles.picture4 + ' ' + styles.backgroundPosition} name="Дипломный проект"
+                             description="Функциональное портфолио сотрудников"/>
                 </div>
             </div>
         </div>

@@ -6,11 +6,19 @@ type ButtonProjectPropsType = {
 }
 
 export const ButtonProject = (props: ButtonProjectPropsType) => {
-    let href = props.name === "Социальная сеть"
-        ? "https://Saveliy-Georgiy.github.io/my_social_network"
-        : props.name === "Счетчик"
-            ? "https://Saveliy-Georgiy.github.io/counter"
-            : "https://saveliy-georgiy.github.io/homework4/";
+
+    let href: string;
+
+    if (props.name === "Социальная сеть") {
+        href = "https://saveliy-georgiy.github.io/SocialNetwork/";
+    } else if (props.name === "Счетчик") {
+        href = "https://Saveliy-Georgiy.github.io/Counter2.0";
+    } else if (props.name === "Практическая страница") {
+        href = "https://saveliy-georgiy.github.io/Homework2.0/";
+    } else {
+        href = "https://saveliy-georgiy.github.io/diplom/#/";
+    }
+
     return (
         <div>
             <a href={href}>
